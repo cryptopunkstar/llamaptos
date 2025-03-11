@@ -1,6 +1,5 @@
-import Placeholder1 from "@/assets/placeholders/bear-1.png";
-import Placeholder2 from "@/assets/placeholders/bear-2.png";
-import Placeholder3 from "@/assets/placeholders/bear-3.png";
+import Placeholder1 from "@/assets/placeholders/modularweb3.png";
+
 import { COLLECTION_ADDRESS } from "./constants";
 
 export const config: Config = {
@@ -8,76 +7,41 @@ export const config: Config = {
 
   // Removing one or all of these socials will remove them from the page
   socials: {
-    twitter: "https://twitter.com",
-    discord: "https://discord.com",
+    twitter: "https://x.com/_modular_web3",
+    discord: "#",
     homepage: "#",
   },
 
   defaultCollection: {
-    name: "Lorem Ipsum",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris congue convallis augue in pharetra.",
+    name: "Llamaptos",
+    description: "Llamaptos is a NFTs collection fan Aptos Network ! Unique collection cosmonaut Llama on desert market crypto survival new generation blockchain langage $MOVE !",
     image: Placeholder1,
   },
 
   ourStory: {
-    title: "Our Story",
-    subTitle: "Proin lorem",
+    title: "Llamaptos Story",
+    subTitle: "Llama cosmonaut",
     description:
-      "Phasellus pellentesque malesuada pretium. Vestibulum sed justo at velit rhoncus finibus nec quis urna. Aenean rutrum congue tincidunt. Praesent id urna quis risus sodales feugiat vitae quis orci. Proin tincidunt eu nisi quis sollicitudin. Nulla facilisis eget tellus quis fermentum. Nunc vel neque at erat dictum tempus. Aliquam in mollis lacus, non fringilla lacus. Nunc blandit iaculis ante vitae pulvinar.",
-    discordLink: "https://discord.com",
-    images: [Placeholder1, Placeholder2, Placeholder3],
+      "A llama on the planet Aptos is heading towards its mission of exploring the next generation blockchain. The Llama represents the innovation of an animal cosmonaut. The NFTs are infinite to reach as many people as possible to mint the artifact!",
+    discordLink: "https://x.com/_modular_web3",
+    images: [Placeholder1],
   },
 
   ourTeam: {
     title: "Our Team",
     members: [
       {
-        name: "Mepoti",
-        role: "Aliquip Esse",
+        name: "Modularweb3",
+        role: "Dev",
         img: Placeholder1,
         socials: {
-          twitter: "https://twitter.com",
+          twitter: "https://x.com/_modular_web3",
         },
       },
-      {
-        name: "Zucker",
-        role: "Sunt Duis",
-        img: Placeholder2,
-      },
-      {
-        name: "SimonT",
-        role: "Ullamco Tempor",
-        img: Placeholder3,
-        socials: {
-          twitter: "https://twitter.com",
-        },
-      },
+  
     ],
   },
 
-  faqs: {
-    title: "F.A.Q.",
-
-    questions: [
-      {
-        title: "Id Quis Mollit Est",
-        description:
-          "Exercitation tempor id ex aute duis laboris dolore est elit fugiat consequat exercitation ullamco. Labore sint laborum anim sunt labore commodo proident adipisicing minim eu duis velit. Est ipsum nisi labore ullamco velit laborum qui in. Fugiat cillum tempor proident occaecat do ipsum Lorem eu labore duis do ex anim. Ullamco incididunt irure officia ex reprehenderit. Voluptate tempor reprehenderit elit exercitation consequat labore ipsum duis reprehenderit. Ex qui aliqua ex aute sunt.",
-      },
-      {
-        title: "Magna Nostrud Eu Nostrud Occaecat",
-        description:
-          "Et aute duis culpa anim sint pariatur ipsum et irure aliquip eu velit. Aliquip Lorem nostrud adipisicing deserunt sit ut aliqua enim amet velit fugiat cillum quis ut. Tempor consequat adipisicing laborum ut ipsum ut elit ad amet qui Lorem ea commodo culpa. Commodo adipisicing sit sint aute deserunt. Proident enim proident labore. Aliquip minim aliqua proident mollit fugiat ipsum qui duis deserunt ea duis. Deserunt anim incididunt irure commodo sint adipisicing magna dolor excepteur.",
-      },
-      {
-        title: "In Amet Mollit Tempor Dolor Consequat Commodo",
-        description:
-          "Fugiat fugiat dolor id aute labore esse incididunt. Reprehenderit nostrud ad elit enim occaecat. Sunt non ex veniam officia dolore deserunt consequat. Excepteur voluptate cillum fugiat reprehenderit consequat eu eu amet dolor enim tempor.",
-      },
-    ],
-  },
-
-  nftBanner: [Placeholder1, Placeholder2, Placeholder3],
 };
 
 export interface Config {
