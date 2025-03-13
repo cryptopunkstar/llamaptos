@@ -17,6 +17,17 @@ export function Header() {
         <Link to="/">{title}</Link>
       </h1>
 
+      
+
+<details style={{ color: "green", fontSize: "1.5rem" }}>
+  <summary>Aptos stake and vote !</summary>
+  <ul>
+    <li><Link to="https://stake.new/dashboard/" target="_blank">Stake</Link></li>
+    <li><Link to="https://governance.aptosfoundation.org/" target="_blank">Vote</Link></li>
+  </ul>
+</details>
+      
+
       <div className="flex gap-2 items-center flex-wrap">
         <WalletSelector />
       </div>
